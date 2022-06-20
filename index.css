@@ -1,0 +1,68 @@
+:root {
+    --pink: #fbe6f4ff;
+    --yellow: #fffad1ff;
+    --green: #e1f0e5ff;
+    --blue: #b5caf9ff;
+    --orange: #f5e6db;
+    --raisin: #2b283aff;
+    --grey: #d4d4d4;
+}
+
+body {
+    background-color: var(--raisin);
+    color: white;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.planet {
+    margin: 1em;
+    border-radius: 50%;
+    background: conic-gradient( black 0deg 180deg, white 180deg 0deg);
+    cursor: pointer;
+}
+
+.Mercury{
+    height: 5px;
+    width: 5px;
+}
+
+.Venus{
+    height: 10px;
+    width: 10px;
+}
+
+.Earth{
+    height: 10px;
+    width: 10px;
+}
+
+.Mars{
+    height: 7px;
+    width: 7px;
+}
+
+.Jupiter{
+    height: 80px;
+    width: 80px;
+}
+
+.Saturn{
+    height: 70px;
+    width: 70px;
+}
+
+.Uranus{
+    height: 40px;
+    width: 40px;
+}
+
+.Neptune{
+    height: 40px;
+    width: 40px;
+}
